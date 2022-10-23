@@ -10,4 +10,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+* Clone the repo into your Codespace.
+* Run docker-compose up to start all the containers for this application.
+* Make a GET request to /api/ping to test the backend API.
+* Go to the front-end homepage (port 3001).
+  * Click on "Sign Up".
+  * Fill in the username, password, and email.
+  * Click "Submit" to create a new account.
+
